@@ -1,0 +1,44 @@
+.navbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff33;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.imgCSS {
+  width: 40px;
+  height: 40px;
+  align-self: center;
+}
+.logoTextContainer {
+  display: flex;
+  flex-direction: row;
+  /* flex-basis: 80%; */
+}
+.gameTitle {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.scoresContainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+.topScore {
+  margin-left: 10px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.score {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
