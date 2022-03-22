@@ -29,6 +29,13 @@
   flex-direction: row;
   margin-right: 30px;
 }
+.scoresContainerN {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+  display: none;
+}
+
 .topScore {
   margin-left: 10px;
   font-family: 'Roboto';
